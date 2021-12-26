@@ -3,7 +3,6 @@ let d = new Date();
 let newDate = d.getMonth()+'.'+ d.getDate()+'.'+ d.getFullYear();
 
 let Zip_Code = "";
-let baseURL = "";
 let temp ='';
 let feeling = "";
 
