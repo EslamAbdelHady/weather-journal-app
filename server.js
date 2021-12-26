@@ -40,10 +40,12 @@ app.get('/postData', (request,response)=>{
 
 app.post('/post' , (request , response) =>{
     console.log(request.body);
-
+SData = {
       temp=     request.body.temp,
       newDate=  request.body.newDate,
       feeling=  request.body.feeling
+}
+    SData = projectData
 
 
 })
