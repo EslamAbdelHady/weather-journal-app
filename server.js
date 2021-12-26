@@ -31,10 +31,6 @@ const server = app.listen(myPort, ()=> {
 
 // initiol  route with a call back function
 
-app.get('/postData', (request,response)=>{
-    res.send(projectData);
-  
-}); 
     
 //   post route  
 
@@ -50,4 +46,8 @@ SData = {
 
 })
  
+app.get('/postData', (request,response)=>{
+    res.send(projectData);
   
+}); 
+
